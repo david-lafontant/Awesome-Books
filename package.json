@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/david-lafontant/AwesomeBooks_v2/issues"
   },
-  "homepage": "https://github.com/david-lafontant/AwesomeBooks_v2#readme"
+  "homepage": "https://github.com/david-lafontant/AwesomeBooks_v2#readme",
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
 }
