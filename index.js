@@ -1,7 +1,8 @@
 import * as Book from './modules/books.js';
-import * as Store from './modules/storeBooks.js';
+import * as Store from './modules/store.js';
 import * as displayBook from './modules/display.js';
 import * as navigation from './modules/navigation.js';
+
 
 // Event: Display Books
   document.addEventListener('DOMContentLoaded', displayBook.displayBooks);
