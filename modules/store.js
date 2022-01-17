@@ -17,8 +17,15 @@ export default class Store {
     }
   
     static removeBook(elem) {
+
       const books = Store.getBooks();
-      books.splice(parseInt(elem.id), 1);
+      if(books.length === 1) {
+        books.pop();
+      }
+      else{
+        books.splice(parseInt(elem.id), 1);
+      }
+      
       localStorage.setItem('books', JSON.stringify(books));
     }
   }
