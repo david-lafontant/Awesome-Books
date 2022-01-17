@@ -1,4 +1,5 @@
-export class displayBook {
+import Store from './store.js';
+export default class displayBook {
     static displayBooks() {
       const books = Store.getBooks();
   
