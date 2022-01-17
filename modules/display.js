@@ -1,4 +1,4 @@
-class displayBook {
+export class displayBook {
     static displayBooks() {
       const books = Store.getBooks();
   
