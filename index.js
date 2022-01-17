@@ -1,9 +1,9 @@
-import * as Book from './modules/books.js';
-import * as Store from './modules/store.js';
-import * as displayBook from './modules/display.js';
-import * as navigation from './modules/navigation.js';
+import Book from './modules/books.js';
+import Store from './modules/store.js';
+import displayBook from './modules/display.js';
+import navigation from './modules/navigation.js';
 
-
+navigation();
 // Event: Display Books
   document.addEventListener('DOMContentLoaded', displayBook.displayBooks);
   let increment = 0;
