@@ -4,7 +4,6 @@ import displayBook from './modules/display.js';
 import navigation from './modules/navigation.js';
 import { DateTime } from './luxon/src/luxon.js';
 
-
 navigation();
 
 // Display the clock
