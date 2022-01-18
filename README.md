@@ -61,7 +61,9 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/mukhammadrizooff/Awesome-books/issues).
 
-👤 **Muhammad Rizo Abdunazarov**
+## Notice
+
+This version derive from my previous shared work with 👤 **Muhammad Rizo Abdunazarov**
 
 ## Show your support
 
