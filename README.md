@@ -11,7 +11,7 @@
 AWESOME BOOKS is a basic website that allows users to add/remove books from a list. 
 ## Screenshot
 
-![2022-01-13_06-01-42](https://user-images.githubusercontent.com/63915024/149247618-0d491557-db36-4f40-af49-a87efea0c525.png)
+![Screenshot](Screenshot.png)
 
 ## Built With
 
@@ -20,7 +20,7 @@ AWESOME BOOKS is a basic website that allows users to add/remove books from a li
 
 ## Live Demo
 
-[Live Demo Link](https://mukhammadrizooff.github.io/Awesome-books/)
+[Live Demo Link](https://david-lafontant.github.io/AwesomeBooks_v2/)
 
 
 ## Getting Started
@@ -63,7 +63,7 @@ Feel free to check the [issues page](https://github.com/mukhammadrizooff/Awesome
 
 ## Notice
 
-This version derive from my previous shared work with 👤 **Muhammad Rizo Abdunazarov**
+This version derive from my previous shared work in module 2 block 1 with 👤 **Muhammad Rizo Abdunazarov**
 
 ## Show your support
 
