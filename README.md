@@ -59,7 +59,7 @@ In order to install a local version of this project and please do the following 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mukhammadrizooff/Awesome-books/issues).
+Feel free to check the [issues page](https://github.com/david-lafontant/AwesomeBooks_v2/issues).
 
 ## Notice
 

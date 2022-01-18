@@ -2,7 +2,8 @@ import Book from './modules/books.js';
 import Store from './modules/store.js';
 import displayBook from './modules/display.js';
 import navigation from './modules/navigation.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import { DateTime } from './luxon/src/luxon.js';
+
 
 navigation();
 
