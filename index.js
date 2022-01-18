@@ -2,9 +2,10 @@ import Book from './modules/books.js';
 import Store from './modules/store.js';
 import displayBook from './modules/display.js';
 import navigation from './modules/navigation.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
-
 navigation();
+
+
+
 
 // Display the clock
 setInterval(() => {
@@ -45,6 +46,8 @@ document.querySelector('#formId').addEventListener('submit', (e) => {
     displayBook.clearFields();
   }
 });
+
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 // Event: Remove a Book
 document.querySelector('#listBooks').addEventListener('click', (e) => {
