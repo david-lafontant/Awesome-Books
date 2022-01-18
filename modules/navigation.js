@@ -46,4 +46,4 @@ export default () => {
       formDisplaySection.classList.add('hidden');
     }
   });
-}
+};
