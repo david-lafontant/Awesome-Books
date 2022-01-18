@@ -2,8 +2,17 @@ import Book from './modules/books.js';
 import Store from './modules/store.js';
 import displayBook from './modules/display.js';
 import navigation from './modules/navigation.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
+
 
 navigation();
+
+// Display the clock
+setInterval(() => {
+  const time = DateTime.now();
+  document.querySelector('.clock').innerHTML = time.toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS).slice(0, -4);
+}, 1000);
+
 // Event: Display Books
   document.addEventListener('DOMContentLoaded', displayBook.displayBooks);
   let increment = 0;
@@ -46,3 +55,4 @@ navigation();
     // Remove book from store
     Store.removeBook(e.target);
   });
+
