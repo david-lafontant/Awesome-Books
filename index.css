@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+* {
+  font-family: "Acme", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-conatainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  cursor: default;
+}
+
+/* Navigation Menu */
+.navigation-menu {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  padding: 0.01rem 1rem;
+  border: black solid 0.3rem;
+  border-radius: 40% 26% 46% 47% / 1% 1% 1% 1%;
+  box-shadow: 3px 2px 0.5px 0.5px #000;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  color: #001aff;
+}
+
+.stake {
+  font-size: 0;
+  display: flex;
+  gap: 0;
+  justify-content: space-between;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border: #000 solid 0.1rem;
+  background-color: #000;
+  border-radius: 100% 49% 100% 3% / 100% 57% 97% 64%;
+}
+
+/* Menu finished */
+
+/* List book */
+.clock {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.main-conatainer-ul {
+  display: flex;
+  padding-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conatainer-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem;
+  width: 80%;
+}
+
+.paragraph {
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  align-self: center;
+}
+
+#listBooks {
+  list-style: none;
+  display: flex;
+  width: 60rem;
+  flex-direction: column;
+  border: black solid 0.3rem;
+  border-radius: 40% 26% 46% 47% / 1% 1% 1% 1%;
+  box-shadow: 3px 2px 0.5px 0.5px #000;
+}
+
+/* --------------------------------BG-LI----------------------------------- */
+li {
+  font-size: 2rem;
+  display: flex;
+  gap: 10rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-left: 0.2rem;
+  padding-right: 1rem;
+}
+
+li:nth-child(odd) {
+  background-color: #ddd;
+}
+
+/* --------------------------------BG-LI----------------------------------- */
+
+.remove-btn {
+  width: 5rem;
+  background: #fff;
+  border-radius: 40% 26% 17% 47% / 1% 3% 1% 3%;
+  border: black solid 0.2rem;
+  box-shadow: 3px 3px 0.5px 0.5px #000;
+}
+
+.remove-btn:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  padding: 0.01rem 1rem;
+  border: black solid 0.3rem;
+  border-radius: 40% 26% 46% 47% / 1% 1% 1% 1%;
+  box-shadow: 3px 2px 0.5px 0.5px #000;
+  align-items: center;
+}
+
+/* List Book finished */
+
+/* Form Elements */
+.conatainer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  width: 30rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: black solid 0.2rem;
+  border-radius: 40% 26% 17% 47% / 1% 3% 1% 3%;
+  box-shadow: 1px 2px 0.5px 0.5px #000;
+}
+
+::placeholder {
+  font-family: "Acme", cursive;
+}
+
+#submit {
+  width: 5rem;
+  margin-left: auto;
+  background: #fff;
+}
+
+#submit:hover {
+  transform: scale(1.1);
+}
+
+/* Form Section Finished */
+
+/* Conatct sectiion */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-title {
+  font-size: 4rem;
+}
+
+.contact-p {
+  font-size: 2rem;
+}
+
+.contact-list {
+  font-size: 2rem;
+}
+
+.li-p {
+  color: #000;
+  background-color: white;
+}
+
+.li-p:nth-child(odd) {
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .container-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 12rem 0.1rem;
+    width: 80%;
+  }
+
+  #listBooks {
+    list-style: none;
+    display: flex;
+    width: 40rem;
+    flex-direction: column;
+    border: black solid 0.3rem;
+    border-radius: 40% 26% 46% 47% / 1% 1% 1% 1%;
+    box-shadow: 3px 2px 0.5px 0.5px #000;
+  }
+
+  li {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .remove-btn {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    width: 10rem;
+  }
+}
