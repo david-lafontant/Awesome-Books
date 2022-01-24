@@ -48,7 +48,6 @@ document.querySelector('#formId').addEventListener('submit', (e) => {
 
 // Event: Remove a Book
 document.querySelector('#listBooks').addEventListener('click', (e) => {
- 
   // Remove book from displayBook
   displayBook.deleteBook(e.target);
 
