@@ -20,7 +20,7 @@ AWESOME BOOKS is a basic website that allows users to add/remove books from a li
 
 ## Live Demo
 
-[Live Demo Link](https://david-lafontant.github.io/AwesomeBooks_v2/)
+[Live Demo Link](https://david-lafontant.github.io/Awesome-Books/)
 
 
 ## Getting Started
